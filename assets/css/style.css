@@ -38,7 +38,7 @@ header h1 {
 }
 
 header h1 mark{
-    color: #d9dcd6;
+    color: #fffd75; /* #d9dcd6 */
     background-color: #2a607c;
 }
 
