@@ -42,7 +42,11 @@ header h1 mark{
     background-color: #2a607c;
 }
 
-header section {
+/* End of header relevant styling */
+
+/* Begin nav relevant styling */
+
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,16 +54,16 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+nav ul {
     list-style-type: none;
 }
 
-header section ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* End of header relevant styling */
+/* End of nav relevant styling */
 
 /* Begin main relevant styling */
 
