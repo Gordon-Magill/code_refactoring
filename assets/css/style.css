@@ -39,7 +39,7 @@ header h1 {
 
 header h1 mark{
     color: #fffd75; /* #d9dcd6 */
-    background-color: #2a607c;
+    background-color: #ffffff00;
 }
 
 /* End of header relevant styling */
@@ -67,7 +67,6 @@ nav ul li {
 
 /* Begin main relevant styling */
 
-/* Styles whole <main> section */
 main {
     width: 75%;
     display: inline-block;
