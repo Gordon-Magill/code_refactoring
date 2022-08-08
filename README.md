@@ -10,6 +10,6 @@ This assignment focused on taking existing assets for a website and refactoring 
 
 The site should be visually and operationally unchanged.
 
-Deployed Page: https://gordon-magill.github.io/week1_challenge/
+Deployed Page: https://gordon-magill.github.io/code_refactoring/
 ![Deployed page](./assets/images/week1_deployed_page.png)
 
