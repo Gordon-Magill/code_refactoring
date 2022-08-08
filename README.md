@@ -1,4 +1,4 @@
-# Week 1 Challenge Assignment
+# Week 1 Challenge Assignment - Code Refactoring
 By Gordon Magill, July 2022
 
 This is a homework assignment for the Berkeley Full Stack Coding Bootcamp.
