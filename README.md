@@ -9,3 +9,7 @@ This assignment focused on taking existing assets for a website and refactoring 
  - Generally follow best practices.
 
 The site should be visually and operationally unchanged.
+
+Deployed Page: https://gordon-magill.github.io/week1_challenge/
+![Deployed page](./assets/images/week1_deployed_page.png)
+
