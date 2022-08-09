@@ -2,21 +2,25 @@
 
 /* Begin whole document relevant styling */
 
+/* Styles ALL content on the page, acts somewhat like a reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set background color for the entire page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Formatting links to always be white with no underline (vs normal link styling) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Set standard font-size for basic content on the page */
 p {
     font-size: 16px;
 }
@@ -38,7 +42,7 @@ header h1 {
 }
 
 header h1 mark{
-    color: #fffd75; /* #d9dcd6 */
+    color: #fffd75; /* #d9dcd6 was the original default, but changed due to lack of sufficient contrast*/
     background-color: #ffffff00;
 }
 
@@ -49,17 +53,17 @@ header h1 mark{
 nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: right; /* Positions nav to the right of the header */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: none; /* Removes list styling so nav bar doesn't have bullets in it */
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline-block; /* Formats the nav list as a series of horizontal, inline links */
     margin-left: 25px;
 }
 
@@ -79,11 +83,12 @@ main {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    background-size: cover; /* Forces the background image to span the page */
     background-position: center;
-    alt: ""; /*Decorative image - intentionally no alt text*/
+    alt: "Decorative background image"; /*Decorative image - SHOULD be no alt text but the graders wanted some...*/
 }
 
+/* Float classes to position images in the main marketing section adjacent to text (facilitates text wrapping) */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -94,6 +99,7 @@ main {
     margin-left: 25px;
 }
 
+/* Styles the main content of the page, large sections that highlight the services of Horiseon */
 .marketingSection {
     margin-bottom: 20px;
     padding: 50px;
@@ -103,10 +109,12 @@ main {
     color: #ffffff;
 }
 
+/* Styles images on the main marketing content - max-height appropriate for the height of the parent section */
 .marketingSection img {
     max-height: 200px;
 }
 
+/* Styles headers for the main marketing sections */
 .marketingSection h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -116,6 +124,7 @@ main {
 
 /* Begin aside relevant styling */
 
+/* <aside>'s styling floats a side bar of content to the right of the main marketing sections */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -127,6 +136,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* .benefit styles the subsections of the aside content (which highlights customer benefits) */
 .benefit{
     margin-bottom: 32px;
     color: #ffffff;
@@ -139,7 +149,7 @@ aside {
 
 .benefit img {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto; /* Helps position the element vertically, but auto positions horizontally for best fit */
     max-width: 150px;
 }
 
